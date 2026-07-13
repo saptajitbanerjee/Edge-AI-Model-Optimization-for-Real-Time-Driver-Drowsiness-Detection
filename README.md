@@ -67,7 +67,7 @@ A real-time closed-loop intervention system was built in the CARLA simulator to 
 
 A practical demonstration of the classification-to-actuation pipeline and autonomous state transitions:
 
-[![Closed-loop demo video](https://drive.google.com/file/d/1Q1HJWatdfdkFhBP67EMAIo1Va5AfOLrR/view?usp=sharing)
+![Closed-loop demo video](https://drive.google.com/file/d/1Q1HJWatdfdkFhBP67EMAIo1Va5AfOLrR/view?usp=sharing)
 
 *(Click to watch — shows the system detecting drowsiness, handing off to autonomous mode, and manual override in action.)*
 
