@@ -110,7 +110,7 @@ This project builds on and identifies gaps in:
 
 ## Author
 
-**[Your Name]** — Deep learning model design, training, and validation; TFMOT/ONNX/hybrid optimization pipeline development; five-architecture benchmarking; Raspberry Pi edge deployment and validation; CARLA closed-loop safety system design.
+**[Saptajit Banerjee]** — Deep learning model design, training, and validation; TFMOT/ONNX/hybrid optimization pipeline development; five-architecture benchmarking; Raspberry Pi edge deployment and validation; CARLA closed-loop safety system design.
 
 Full author list and individual contributions in the [project report](./report).
 
