@@ -32,7 +32,7 @@ Two standard compression strategies were tried first, and both failed in complem
 
 This motivated a **hybrid, conditional pipeline**:
 
-![Hybrid Optimization Pipeline](figures/hybridized_optimization_pipeline.png)
+![Hybrid Optimization Pipeline](figures/hybrid_optimization_pipeline.png)
 
 If full static quantization holds accuracy above a threshold, the pipeline terminates there. If it collapses (as it did for most MobileNet variants), the pipeline falls back to partial quantization before re-applying ONNX optimization — recovering accuracy while still achieving strong compression.
 
