@@ -1,0 +1,18 @@
+tensorflow>=2.12,<2.16
+tensorflow-model-optimization>=0.7.5
+onnx>=1.14.0
+onnxruntime>=1.15.0
+onnxsim>=0.4.33
+tf2onnx>=1.15.1
+mediapipe>=0.10.0
+opencv-python>=4.8.0
+numpy>=1.23,<2.0
+pandas>=1.5.0
+matplotlib>=3.7.0
+scikit-learn>=1.2.0
+Pillow>=9.5.0
+jupyter>=1.0.0
+
+# CARLA client (install separately per your CARLA server version;
+# not always available via pip depending on platform)
+# carla==0.9.15
