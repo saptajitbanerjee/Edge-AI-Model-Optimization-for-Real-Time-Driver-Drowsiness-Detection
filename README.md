@@ -79,7 +79,7 @@ A practical demonstration of the classification-to-actuation pipeline and autono
 │   └── edge-ai-hybrid-optimized-drowsiness-detection.ipynb   # Training + hybrid optimization pipeline
 ├── results/
 │   ├── benchmark_tables.md          # Full per-architecture, per-stage results
-│   └── figures/                     # Throughput/accuracy/latency comparison charts + demo thumbnail
+|── figures/                     # Throughput/accuracy/latency comparison charts + demo thumbnail
 ├── carla_integration/               # Closed-loop safety intervention system
 └── requirements.txt
 ```
@@ -110,7 +110,7 @@ This project builds on and identifies gaps in:
 
 ## Author
 
-**[Saptajit Banerjee]** — Deep learning model design, training, and validation; TFMOT/ONNX/hybrid optimization pipeline development; five-architecture benchmarking; Raspberry Pi edge deployment and validation; CARLA closed-loop safety system design.
+**Saptajit Banerjee** — Deep learning model design, training, and validation; TFMOT/ONNX/hybrid optimization pipeline development; five-architecture benchmarking; Raspberry Pi edge deployment and validation; CARLA closed-loop safety system design.
 
 Full author list and individual contributions in the [project report](./report).
 
