@@ -74,13 +74,19 @@ A practical demonstration of the classification-to-actuation pipeline and autono
 ## Repository Structure
 
 ```
-├── report/                          # Full project report (PDF)
-├── notebooks/
-│   └── edge-ai-hybrid-optimized-drowsiness-detection.ipynb   # Training + hybrid optimization pipeline
-├── results/
-│   ├── benchmark_tables.md          # Full per-architecture, per-stage results
-|── figures/                     # Throughput/accuracy/latency comparison charts + demo thumbnail
-├── carla_integration/               # Closed-loop safety intervention system
+Edge-AI-Model-Optimization-for-Real-Time-Driver-Drowsiness-Detection/
+├── carla_integration/
+├── figures/
+│   ├── carla_closed_loop_safety_system.png
+│   └── hybrid_optimization_pipeline.png
+├── notebook/
+│   └── edge-ai-hybrid-optimized-drowsiness-detection.ipynb
+├── presentation/
+│   ├── Final Presentation.pdf
+│   └── Final Presentation.pptx
+├── report/
+│   └── Project Report - CS6651 (FINAL).pdf
+├── README.md
 └── requirements.txt
 ```
 
