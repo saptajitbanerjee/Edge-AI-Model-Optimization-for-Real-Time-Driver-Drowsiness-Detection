@@ -66,19 +66,7 @@ Full per-stage tables (raw → pruned → clustered → quantized) are in the [r
 
 A real-time closed-loop intervention system was built in the CARLA simulator to demonstrate the model in a driving context:
 
-```mermaid
-flowchart LR
-    A[Start CARLA<br/>Manual Mode] --> B[Capture Frames]
-    B --> C[Extract Faces<br/>MediaPipe]
-    C --> D[Drowsiness Detection]
-    D --> E[1-Minute<br/>Prediction Buffer]
-    E --> F{>=70% of<br/>predictions drowsy?}
-    F -- Yes --> G[Switch to<br/>Autonomous Mode]
-    F -- No --> B
-    G --> H{Manual<br/>override?}
-    H -- Yes --> A
-    H -- No --> G
-```
+![Closed-loop safety system flowchart](figures/carla_closed_loop_safety.png)
 
 - Face detection via MediaPipe's `face_detector.tflite` (swapped in for the heavier MTCNN used in prior work, cutting pre-processing latency).
 - A 1-minute rolling buffer of drowsiness predictions.
