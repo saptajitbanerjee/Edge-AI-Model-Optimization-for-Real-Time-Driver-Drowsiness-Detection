@@ -32,17 +32,7 @@ Two standard compression strategies were tried first, and both failed in complem
 
 This motivated a **hybrid, conditional pipeline**:
 
-```mermaid
-flowchart LR
-    A[Model Training] --> B[Pruning]
-    B --> C[Clustering]
-    C --> D[ONNX Optimization]
-    D --> E{Accuracy holds<br/>after full INT8<br/>quantization?}
-    E -- Yes --> F[Done — fully quantized model]
-    E -- No --> G[Partial quantization<br/>via TFLite Converter]
-    G --> H[ONNX Optimization<br/>on partially quantized model]
-    H --> I[Done — recovered accuracy,<br/>high compression]
-```
+![Hybridized Optimization Pipeline](figures/hybridized_optimization_pipeline.png)
 
 If full static quantization holds accuracy above a threshold, the pipeline terminates there. If it collapses (as it did for most MobileNet variants), the pipeline falls back to partial quantization before re-applying ONNX optimization — recovering accuracy while still achieving strong compression.
 
