@@ -86,6 +86,7 @@ Edge-AI-Model-Optimization-for-Real-Time-Driver-Drowsiness-Detection/
 │   └── Final Presentation.pptx
 ├── report/
 │   └── Project Report - CS6651 (FINAL).pdf
+├── LICENSE
 ├── README.md
 └── requirements.txt
 ```
