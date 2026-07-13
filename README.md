@@ -108,6 +108,11 @@ This project builds on and identifies gaps in:
 - Reddy et al., *Real-Time Driver Drowsiness Detection for Embedded System Using Model Compression of DNNs*, CVPRW 2017 — no pruning/clustering/quantization beyond distillation.
 - Dosovitskiy et al., *CARLA: An Open Urban Driving Simulator*, CoRL 2017 — no dedicated drowsiness-detection framework, motivating the closed-loop system here.
 
+## Report & Presentation
+
+- 📄 [Full project report](./report) — complete methodology, per-stage benchmark tables, and discussion.
+- 🖥️ [Presentation slides](./presentation) — condensed overview of the pipeline and results.
+
 ## Author
 
 **Saptajit Banerjee** — Deep learning model design, training, and validation; TFMOT/ONNX/hybrid optimization pipeline development; five-architecture benchmarking; Raspberry Pi edge deployment and validation; CARLA closed-loop safety system design.
