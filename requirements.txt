@@ -1,18 +1,31 @@
-tensorflow>=2.12,<2.16
-tensorflow-model-optimization>=0.7.5
-onnx>=1.14.0
-onnxruntime>=1.15.0
-onnxsim>=0.4.33
-tf2onnx>=1.15.1
-mediapipe>=0.10.0
-opencv-python>=4.8.0
-numpy>=1.23,<2.0
-pandas>=1.5.0
-matplotlib>=3.7.0
-scikit-learn>=1.2.0
-Pillow>=9.5.0
+# Core model optimization pipeline
+# Versions pinned from the Kaggle notebook environment (pip freeze)
+tensorflow==2.6.2
+tensorflow-model-optimization==0.7.3
+tf2onnx==1.16.1
+onnx==1.14.1
+onnxruntime-gpu==1.14.1
+# If running on CPU-only hardware, use onnxruntime==1.14.1 instead of onnxruntime-gpu
+onnxsim==0.4.36
+
+# Data handling / general
+numpy==1.21.6
+pandas==1.3.5
+scipy>=1.7.3,<1.8
+scikit-learn>=1.0.1,<1.1
+
+# Image handling
+opencv-python==4.5.4.60
+Pillow==8.2.0
+
+# Visualization
+matplotlib==3.5.1
+
 jupyter>=1.0.0
 
-# CARLA client (install separately per your CARLA server version;
-# not always available via pip depending on platform)
-# carla==0.9.15
+# ---------------------------------------------------------------
+# CARLA closed-loop system (runs locally, not part of the Kaggle
+# notebook environment above -- install separately)
+# ---------------------------------------------------------------
+mediapipe>=0.10.0
+# carla==0.9.15   # match to your installed CARLA server version
