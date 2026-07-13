@@ -2,7 +2,7 @@
 
 A model compression and deployment pipeline for driver drowsiness detection, designed for real-time inference on resource-constrained edge/embedded hardware. This repo covers the **deep learning and edge-AI side** of a larger hardware-software co-design project — model design, benchmarking, a hybrid TFMOT + ONNX optimization pipeline, and a closed-loop CARLA safety intervention system.
 
-🔗 **[Run the notebook live on Kaggle](https://www.kaggle.com/code/rogaldorn7/drowsiness-detection-model-optimization)** &nbsp;|&nbsp; 🎥 **[Watch the closed-loop system demo](#carla-closed-loop-safety-system)**
+🔗 **[Run the notebook live on Kaggle]([https://www.kaggle.com/code/rogaldorn7/drowsiness-detection-model-optimization](https://www.kaggle.com/code/rogaldorn7/edge-ai-hybrid-optimized-drowsiness-detection))** &nbsp;|&nbsp; 🎥 **[Watch the closed-loop system demo](https://drive.google.com/file/d/1Q1HJWatdfdkFhBP67EMAIo1Va5AfOLrR/view?usp=sharing)**
 
 > **Scope note:** This project was split across two repositories by design. This repo covers model training, optimization, and the CARLA closed-loop system. The RISC-V/FPGA hardware deployment, TVM cross-compilation, and custom convolution accelerator were built by teammates and live at [Harikheshav/Drowsiness-Detection](https://github.com/Harikheshav/Drowsiness-Detection). Together they form one system, described in full in the [project report](./report).
 
