@@ -86,7 +86,7 @@ A practical demonstration of the classification-to-actuation pipeline and autono
 ```
 ├── report/                          # Full project report (PDF)
 ├── notebooks/
-│   └── model_optimization_pipeline.ipynb   # Training + hybrid optimization pipeline
+│   └── edge-ai-hybrid-optimized-drowsiness-detection.ipynb   # Training + hybrid optimization pipeline
 ├── results/
 │   ├── benchmark_tables.md          # Full per-architecture, per-stage results
 │   └── figures/                     # Throughput/accuracy/latency comparison charts + demo thumbnail
@@ -106,7 +106,7 @@ To run locally:
 git clone https://github.com/<your-username>/drowsiness-detection-edge-ai-optimization.git
 cd drowsiness-detection-edge-ai-optimization
 pip install -r requirements.txt
-jupyter notebook notebooks/model_optimization_pipeline.ipynb
+jupyter notebook notebooks/edge-ai-hybrid-optimized-drowsiness-detection.ipynb
 ```
 
 Dataset used: [Driver Drowsiness Dataset (DDD)](https://www.kaggle.com/datasets/ismailnasri20/driver-drowsiness-dataset-ddd/data) — Nasri, 2022.
