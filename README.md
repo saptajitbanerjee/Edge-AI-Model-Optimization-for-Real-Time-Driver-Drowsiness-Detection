@@ -50,9 +50,9 @@ Five architectures were trained and evaluated end-to-end through this pipeline:
 
 ResNet-18 was the most robust to full static quantization; MobileNet-based architectures were more accuracy-sensitive and needed the partial-quantization fallback. MobileNetV3 Small came out best on the overall throughput/latency/size balance for edge deployment.
 
-📊 *Aggregate across all 5 models:* the pipeline achieved a **100% success rate on compression** — every architecture saw substantial size reduction, averaging **90.4% raw size reduction** (~10.4x) and **94.5% compressed size reduction** (~18.3x). Throughput and latency gains were architecture-dependent (3 of 5 improved on both; RTDD and MobileNetV2 regressed under this path) — which is *why* MobileNetV3 Small and ResNet-18, not just the average, are the models actually recommended for deployment. 🏆
+📊 **Aggregate across all 5 models:** the pipeline achieved a **100% success rate on compression** — every architecture saw substantial size reduction, averaging **90.4% raw size reduction** (~10.4x) and **94.5% compressed size reduction** (~18.3x). Throughput and latency gains were architecture-dependent (3 of 5 improved on both; RTDD and MobileNetV2 regressed under this path) — which is *why* MobileNetV3 Small and ResNet-18, not just the average, are the models actually recommended for deployment. 🏆
 
-📁 Full per-stage tables (raw → pruned → clustered → quantized) are in the [report](./report), and the complete raw performance data (*all* metrics, *all* models, *all* pipeline stages) is available as a spreadsheet: **[📈 Model Performance Report](./results/Model_Performance_Report.xlsx)** ([Google Sheets version](https://docs.google.com/spreadsheets/d/1e8lajVfDrHw2O9MifRIDaAl2g0R-rIPS/edit?usp=sharing&ouid=114153947327815469748&rtpof=true&sd=true)).
+📁 **Full per-stage tables** (raw → pruned → clustered → quantized) are in the [report](./report), and the complete raw performance data (*all* metrics, *all* models, *all* pipeline stages) is available as a spreadsheet: **[📈 Model Performance Report](./results/Model_Performance_Report.xlsx)** ([Google Sheets version](https://docs.google.com/spreadsheets/d/1e8lajVfDrHw2O9MifRIDaAl2g0R-rIPS/edit?usp=sharing&ouid=114153947327815469748&rtpof=true&sd=true)).
 
 ## CARLA Closed-Loop Safety System
 
