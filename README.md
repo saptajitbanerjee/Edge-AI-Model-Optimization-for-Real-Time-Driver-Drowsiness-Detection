@@ -1,6 +1,6 @@
 # Edge-AI Model Optimization for Real-Time Driver Drowsiness Detection
 
-A model optimization, compression and deployment pipeline for driver drowsiness detection, designed for real-time inference on resource-constrained edge/embedded hardware. This repo covers the **deep learning and edge-AI side** of a larger hardware-software co-design project — model design, benchmarking, a hybrid TFMOT + ONNX optimization pipeline, and a closed-loop CARLA safety intervention system.
+A model optimization, compression and deployment pipeline for driver drowsiness detection, designed for real-time inference on resource-constrained edge devices. This repo covers the **deep learning and edge-AI side** of a larger hardware-software co-design project — model design, benchmarking, a hybrid TFMOT + ONNX optimization pipeline, and a closed-loop CARLA safety intervention system.
 
 🔗 **[Run the notebook live on Kaggle](https://www.kaggle.com/code/rogaldorn7/edge-ai-hybrid-optimized-drowsiness-detection)** &nbsp;|&nbsp; 🎥 **[Watch the closed-loop system demo](https://drive.google.com/file/d/1Q1HJWatdfdkFhBP67EMAIo1Va5AfOLrR/view?usp=sharing)**
 
